@@ -15,8 +15,8 @@
     "bun": ">=1.0.0"
   },
   "scripts": {
-    "dev": "vite --port 3000",
-    "build": "vite build && tsc",
+    "dev": "node api.js && vite --port 3000",
+    "build": "node api.js && vite build && tsc",
     "preview": "vite preview",
     "test": "vitest run",
     "lint": "eslint",
